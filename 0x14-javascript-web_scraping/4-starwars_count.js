@@ -1,6 +1,6 @@
 #!/usr/bin/node
 
-request = require('request');
+const request = require('request');
 const apiURL = process.argv[2];
 const characterId = 18;
 
