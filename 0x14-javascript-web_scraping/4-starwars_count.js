@@ -17,7 +17,7 @@ request(apiURL, function (err, response, body) {
       for (const cIndex in filmChars) {
         if (filmChars[cIndex].includes(characterId)) {
           count++;
-	}
+        }
       }
     }
     console.log(count);
